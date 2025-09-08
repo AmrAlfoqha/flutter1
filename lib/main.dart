@@ -1,37 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_2/firstscreen.dart';
 
 void main() {
   runApp(
-    MyApp()
+MyApp()
   );
 }
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    return(MaterialApp(
-          home: Scaffold(
-               appBar: AppBar(
-                title: Text("data"),
-               ),
-               body: Container(
-                margin: EdgeInsets.all(30),
-                
-              
-                color: Colors.amber,
-              
-                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    Text("data"),
-                    Text("amr"),
-                    Text("hello"),
-                  ],
-                 ),
-               ),
-          ),
-    ));
+  return(  MaterialApp
+  (
+ debugShowCheckedModeBanner: false,       
+    home: Firstscreen()
+    )
+  );
   }
-
+  
 }
-
