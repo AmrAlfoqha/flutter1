@@ -17,7 +17,6 @@ class app extends State<count>
     // TODO: implement build
    return MaterialApp(
     home: Scaffold(
-      De
             backgroundColor: Colors.brown,      
       body: Center(
         child: Column(
@@ -33,7 +32,7 @@ class app extends State<count>
               setState(() {
                 c++;
               });
-            }, child: Text("Clic here")
+            }, child: Text("Click here")
             ),
             ElevatedButton(onPressed: (){
               setState(() {
